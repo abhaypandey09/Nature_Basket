@@ -1,0 +1,109 @@
+
+.navbar{
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.navbar>p{
+    font-weight: bold;
+    color: grey;
+}
+#logo{
+    width: 315px;
+    height: 85px;
+}
+input{
+    height: 30px;
+    margin-top: 10px;
+}
+#account{
+    margin-top: 16px;
+}
+#bag{
+    margin-top: 12px;
+    font-size: 22px;
+}
+a {
+text-decoration: none;
+color: blue;
+}
+a:hover {
+color: rgb(229, 47, 27);
+}
+#navbar a {
+cursor: pointer;
+}
+.centerImg{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+h1{
+    text-align: center;
+    color: grey;
+    font-weight: 50;
+}
+#TOP_BRANDS{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: auto;
+}
+#TOP_BRANDS>div{
+    margin-right: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 20px;
+}
+#TOP_BRANDS>div>div{
+    margin-top: -70px;
+    margin-left: 25px;
+    text-align: center;
+    width: 37%;
+    background-color: white;
+    position: absolute;
+    color: red;
+    border-radius: 10px;
+}
+#para{
+    width: 80%;
+    margin: auto;
+}
+#footer{
+    background-color: #8c8d94;
+    margin-top: 40px;
+}
+#footer>div{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+#footer>div>div{
+    width: 18%;
+}
+#footer>div>div>h2{
+    height: 37px;
+    width: 72px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Inter, Roboto, Arial, sans-serif;
+}
+#footer>div>div>h3{
+    margin-bottom: 38px;
+    color: white;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Inter, Roboto, Arial, sans-serif;
+}
+#footer>div>div>p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: Inter, Roboto, Arial, sans-serif;
+}
